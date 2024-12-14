@@ -7,5 +7,5 @@ v2 = np.array([4,5,6])
 w1 = 0.3
 w2 = 0.7
 
-weighted_avg = w2 * v1 + w2 * v2
-print(f'The weighted avg is is: {weighted_avg}')
+weighted_avg = (w1 * v1) + (w2 * v2)
+print(f'The weighted average of v1: {v1} and v2: {v2} is: {weighted_avg}')
